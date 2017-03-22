@@ -24,6 +24,8 @@
     btn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:btn];
 
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
+
 }
 
 
