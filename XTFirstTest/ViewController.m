@@ -26,6 +26,13 @@
 
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
 
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+
+}
+
+- (void)btnClick:(UIButton *)sender
+{
+    NSLog(@"Button is clicked!");
 }
 
 
